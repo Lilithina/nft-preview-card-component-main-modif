@@ -1,0 +1,61 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+  background: hsl(217, 54%, 11%);
+  text-align: center;
+  color: hsl(215, 51%, 70%);
+}
+body p{
+  font-size: 18px;
+}
+
+section{
+  background: hsl(216, 50%, 16%);
+  margin: 30px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+h1{
+  color: White;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer img{
+  border:1px solid white;
+  border-radius: 50%;
+}
+
+.blue{
+  color: hsl(178, 100%, 50%)
+}
+
+.txt{
+  text-align: left;
+}
+
+.line {
+    margin: 10px 10px;
+    background-color: #2e415b;
+    height: 1px;
+    width: 95%;
+}
+
+#cube{
+  width: 300px;
+  border-radius: 10px;
+}
+
+.hover{position:relative;}
+
+.pic2{
+  position:absolute;
+  visibility:hidden;
+ top:0px;
+left:0px;}
+
+.hover:hover .pic2{visibility:visible;}
