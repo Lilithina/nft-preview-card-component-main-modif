@@ -7,6 +7,7 @@ body{
   background: hsl(217, 54%, 11%);
   color: hsl(215, 51%, 70%);
   margin: auto;
+  margin-top: 8%;
   max-width: 100vh;
   overflow: hidden;
 }
@@ -19,8 +20,8 @@ section{
   background: hsl(216, 50%, 16%);
   border-radius: 10px;
   margin: 20px auto;
-  width: 340px;
-  padding-block: 2px;
+  width: 360px;
+  padding-block: 5px;
 }
 
 h1{
@@ -74,7 +75,7 @@ footer img{
 }
 
 .icon #eth, .icon #clock{
-margin-right: 10px;
+margin-right: 6px;
 }
 
 .line {
@@ -85,7 +86,7 @@ margin-right: 10px;
 }
 
 #cube{
-  width: 300px;
+  width: 320px;
   border-radius: 10px;
   margin: -5px;
 }
@@ -98,16 +99,16 @@ margin-right: 10px;
 .pic2{
   position:absolute;
   visibility:hidden;
-  top:122px;
-  left:122px;
+  top:130px;
+  left:130px;
   color: white;
 }
 
 .background{
   position: absolute;
   visibility:hidden;
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
   top: -5px;
   left: -5px;
   border-radius: 10px;
